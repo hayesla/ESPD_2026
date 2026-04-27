@@ -63,7 +63,6 @@ conda env create -f environment.yml
 conda activate espd-sunpy-2026
 ```
 
-If solving feels slow, the libmamba solver speeds conda up: `conda install -n base conda-libmamba-solver && conda config --set solver libmamba`.
 
 Or with **mamba** ([fast conda drop-in replacement](https://mamba.readthedocs.io/)):
 
@@ -94,13 +93,13 @@ The notebooks download everything into a single `./data/` folder at the repo roo
 
 ## Pre-session checklist
 
-Before Monday:
+On Monday:
 
 1. Clone the repo and create the environment (see above).
 2. Open `1_solar_data_search_and_download.ipynb` and run the imports cell. You should see sunpy 7.1 or newer, with no errors.
 3. Run a small `Fido` query (the `a.Time(...) + a.Instrument("AIA")` example near the top). If this errors, you likely have a network/proxy issue, so fall back to Colab.
 
-If anything fails, open an [issue](https://github.com/hayesla/ESPD_2026/issues) or ping me on the school's communication channel.
+If anything fails, open an [issue](https://github.com/hayesla/ESPD_2026/issues) or ping me on the school's slack channel.
 
 ## Credits
 
