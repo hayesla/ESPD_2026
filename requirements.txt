@@ -6,6 +6,7 @@ aiapy>=0.11
 sunpy-soar>=1.12
 sunkit-instruments>=0.6
 sunkit-image>=0.7
+sunkit-magex>=1.1
 cdflib
 spiceypy
 ipywidgets
