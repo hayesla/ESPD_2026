@@ -44,10 +44,10 @@ Click the badge for the notebook you want and it opens in Colab:
 
 | Notebook | Open in Colab |
 |---|---|
-| 1. Solar Data Search and Download | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hayesla/ESPD/blob/main/1_solar_data_search_and_download.ipynb) |
-| 2. Data Containers — Map and TimeSeries | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hayesla/ESPD/blob/main/2_data_containers_map_and_timeseries.ipynb) |
-| 3. Coordinates framework | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hayesla/ESPD/blob/main/3_coordinates_framework.ipynb) |
-| 4. Example workflow | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hayesla/ESPD/blob/main/4_example_workflow.ipynb) |
+| 1. Solar Data Search and Download | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hayesla/ESPD_2026/blob/main/1_solar_data_search_and_download.ipynb) |
+| 2. Data Containers — Map and TimeSeries | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hayesla/ESPD_2026/blob/main/2_data_containers_map_and_timeseries.ipynb) |
+| 3. Coordinates framework | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hayesla/ESPD_2026/blob/main/3_coordinates_framework.ipynb) |
+| 4. Example workflow | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hayesla/ESPD_2026/blob/main/4_example_workflow.ipynb) |
 
 In Colab you'll need to `pip install` the dependencies in the first cell — see `requirements.txt`. Files don't persist between Colab notebook sessions, so each notebook re-fetches the data it needs. On a local install, downloads are reused across notebooks (see the directory layout below) — that's the smoother experience if you can install before Monday.
 
@@ -56,7 +56,7 @@ In Colab you'll need to `pip install` the dependencies in the first cell — see
 #### 1. Clone the repo
 
 ```bash
-git clone https://github.com/hayesla/ESPD.git
+git clone https://github.com/hayesla/ESPD_2026.git
 cd ESPDSummerSchoolSunPy2026
 ```
 
@@ -110,12 +110,12 @@ Before Monday:
 2. Open `1_solar_data_search_and_download.ipynb` and run the imports cell. You should see SunPy 7.1 or newer, with no errors.
 3. Run a small `Fido` query (the `a.Time(...) + a.Instrument("AIA")` example near the top). If this errors, you likely have a network/proxy issue — fall back to Colab.
 
-If anything fails, open an [issue](https://github.com/hayesla/ESPD/issues) or ping me on the school's communication channel.
+If anything fails, open an [issue](https://github.com/hayesla/ESPD_2026/issues) or ping me on the school's communication channel.
 
 ---
 
 ## Credits
 
-Tutorial by **Laura A. Hayes** (Dublin Institute for Advanced Studies, Ireland), building on the [2024 ESPD SunPy tutorial](https://github.com/hayesla/ESPDSummerSchoolSunPy), with thanks to the **SunPy community** and contributors to the affiliated packages used here: `aiapy`, `sunpy-soar`, `sunkit-instruments`, `sunkit-image`, `reproject`, `hvpy`, and `astropy`.
+Tutorial by **Laura A. Hayes** (Dublin Institute for Advanced Studies, Ireland), building on the [2024 ESPD SunPy tutorial](https://github.com/hayesla/ESPD_2026SummerSchoolSunPy), with thanks to the **SunPy community** and contributors to the affiliated packages used here: `aiapy`, `sunpy-soar`, `sunkit-instruments`, `sunkit-image`, `reproject`, `hvpy`, and `astropy`.
 
 Released under the [BSD 3-Clause License](LICENSE).
