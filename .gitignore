@@ -1,0 +1,33 @@
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Downloaded data (notebooks fetch these on demand)
+AIA/
+EUI/
+MAG/
+XRS/
+HMI/
+LASCO_C2/
+*.fits
+*.fts
+*.fits.gz
+*.cdf
+*.nc
+*.jp2
+*.mp4
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
