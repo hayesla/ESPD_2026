@@ -1,0 +1,13 @@
+# pip-only install path (Colab, venv, or any non-conda environment)
+# python >= 3.10 required, 3.12 recommended
+
+sunpy[all]>=7.1
+aiapy>=0.11
+sunpy-soar>=1.12
+sunkit-instruments>=0.6
+sunkit-image>=0.7
+cdflib
+spiceypy
+ipywidgets
+jupyterlab
+notebook
