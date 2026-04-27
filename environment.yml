@@ -6,6 +6,7 @@ dependencies:
   - pip
   - jupyterlab
   - notebook
+  - ffmpeg
   - pip:
       - "sunpy[all]>=7.1"
       - "aiapy>=0.11"
